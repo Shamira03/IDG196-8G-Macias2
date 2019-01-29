@@ -10,21 +10,24 @@ import org.junit.Assert.*
  * See [testing documentation](http://d.android.com/tools/testing).
  */
 class ExampleUnitTest {
-    var arreglito = arrayOf (9, 6, 4, 8, 1)
-    val posis = Suma(arreglito)
-    print(posis)
-
-    @Test
-    fun Suma(arreglito: IntArray): Int {
-        val sumaT = 12
-        for (i in arreglito.indices) {
-            for (j in i + 1 until arreglito.size) {
-                if (arreglito[i] + arreglito[j] == sumaT) {
-                    println(i)
-                    println(j)
+    fun Suma(numeros: IntArray, num: Int): IntArray {
+        var array = intArrayOf(0,0)
+        for(i in numeros.indices) {
+            for(j in i+1 until numeros.size)   {
+                if(numeros[i]+numeros[j]==num)  {
+                    array[0]=i
+                    array[1]=j
                 }
             }
         }
-        return 0
+        return array
+    }
+
+    @Test
+    fun primerTest() {
+        var numeros = intArrayOf(9, 6, 4, 8, 1);
+        var resultado = intArrayOf(2, 3);
+
+        assertEquals(resultado.get(0), Suma(numeros,12).get(0));
     }
 }
