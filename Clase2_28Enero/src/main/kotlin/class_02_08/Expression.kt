@@ -10,27 +10,23 @@ class Expression {
             if (c == '(' || c == '[' || c == '{') {
                 se.add(c)
             }
-            if(se.size == 0){
+            else if (se.size>0) {
+                if (c == ')') {
+                    if (se[se.size - 1] == '(') {
+                        se.removeAt(se.size - 1)
+                    }
+                } else if (c == ']') {
+                    if (se[se.size - 1] == '[') {
+                        se.removeAt(se.size - 1)
+                    }
+                } else if (c == '}') {
+                    if (se[se.size - 1] == '{') {
+                        se.removeAt(se.size - 1)
+                    }
+                }
+            }else
                 return false
-            }
-            else if (c == ')') {
-                if (se[se.size - 1]=='('){
-                    se.removeAt(se.size - 1)
-                }
-                return true
-            }
-            else if (c == ']'){
-                if (se[se.size - 1]=='['){
-                    se.removeAt(se.size - 1)
-                }
-                return true
-            }else if (c == '}') {
-                if (se[se.size - 1]=='{'){
-                    se.removeAt(se.size - 1)
-                }
-                return true
-            }
         }
-        return false
+        return se.size == 0
     }
 }

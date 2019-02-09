@@ -119,4 +119,11 @@ class ExpressionTest {
 
         assertFalse(expression.isValid(caracteres))
     }
+
+    @Test
+    fun testIfProfe(){
+        var caracteres = "({[]})"
+
+        assertTrue(expression.isValid(caracteres))
+    }
 }
