@@ -4,41 +4,33 @@ import com.sun.org.apache.bcel.internal.generic.RETURN
 
 class Expression {
     fun isValid (caracteres: String): Boolean{
-        var contadorP = 0
-        var contadorL = 0
-        var contadorC = 0
+        var se = ArrayList<Char>()
         for (c in caracteres) {
-            if(contadorP < 0){
+
+            if (c == '(' || c == '[' || c == '{') {
+                se.add(c)
+            }
+            if(se.size == 0){
                 return false
             }
-            if(contadorL < 0){
-                return false
+            else if (c == ')') {
+                if (se[se.size - 1]=='('){
+                    se.removeAt(se.size - 1)
+                }
+                return true
             }
-            if(contadorC < 0){
-                return false
-            }
-            if (c =='(') {
-                contadorP++
-            }
-            else if (c ==')'){
-                contadorP--
-            }
-            if ( c == '{') {
-                contadorL++
-            }
-            else if ( c == '}'){
-                contadorL--
-            }
-            if ( c == '[') {
-                contadorC++
-            }
-            else if ( c == ']'){
-                contadorC--
+            else if (c == ']'){
+                if (se[se.size - 1]=='['){
+                    se.removeAt(se.size - 1)
+                }
+                return true
+            }else if (c == '}') {
+                if (se[se.size - 1]=='{'){
+                    se.removeAt(se.size - 1)
+                }
+                return true
             }
         }
-        return contadorC == 0
-
-
         return false
     }
 }

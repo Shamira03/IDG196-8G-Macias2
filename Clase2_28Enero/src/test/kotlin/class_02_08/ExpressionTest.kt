@@ -98,4 +98,25 @@ class ExpressionTest {
 
         assertFalse(expression.isValid(caracteres))
     }
+
+    @Test
+    fun testIfParentesisYLlaves(){
+        var caracteres = "(){}"
+
+        assertTrue(expression.isValid(caracteres))
+    }
+
+    @Test
+    fun testIfParentesisDentroLlaves(){
+        var caracteres = "{()}"
+
+        assertTrue(expression.isValid(caracteres))
+    }
+
+    @Test
+    fun testIfLlavesDentroParentesisMAL(){
+        var caracteres = "{(})"
+
+        assertFalse(expression.isValid(caracteres))
+    }
 }
