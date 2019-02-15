@@ -9,10 +9,16 @@ class Customer {
     var correo: String = ""
 
     fun isValid (id : String, nombre : String, correo : String) : Boolean{
-        if(id.isEmpty() || nombre.isEmpty() || correo.isEmpty()){
-            return false
+        var cliente = arrayListOf<String>(id ,nombre ,correo)
+        for (c in cliente){
+            if(id.isEmpty() || nombre.isEmpty() || correo.isEmpty()){
+                return false
+            }
+            else{
+                cliente.add(c)
+                return true
+            }
         }
-
         return true
     }
 }
