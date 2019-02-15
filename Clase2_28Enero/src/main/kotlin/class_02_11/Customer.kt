@@ -7,13 +7,11 @@ class Customer {
     var id : String = ""
     var nombre: String = ""
     var correo: String = ""
-    var clientes = ArrayList<StringArray>()
 
     fun isValid (id : String, nombre : String, correo : String) : Boolean{
-
-            if(id.isEmpty() || nombre.isEmpty() || correo.isEmpty()){
-                return false
-            }
+        if(id.isEmpty() || nombre.isEmpty() || correo.isEmpty()){
+            return false
+        }
 
         return true
     }

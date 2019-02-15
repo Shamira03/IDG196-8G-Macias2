@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c122303b-ef6a-4cde-8b88-ba838370ddbf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/class_02_11/Customer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/class_02_11/Customer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/class_02_11/ShoppingCartTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/class_02_11/ShoppingCartTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -23,11 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_11/Customer.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_11/ShoppingCart.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -35,8 +46,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/class_02_11/ShoppingCartTest.kt">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_08/Expression.kt">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -68,6 +88,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/class_02_08/Expression.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/class_02_11/ShoppingCartTest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/class_02_11/Customer.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/class_02_11/ShoppingCart.kt" />
       </list>
     </option>
   </component>
@@ -121,6 +142,14 @@
               <item name="IDG196-8G" type="b2602c69:ProjectViewProjectNode" />
               <item name="Clase2_28Enero" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="class_02_11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDG196-8G" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Clase2_28Enero" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -138,6 +167,14 @@
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="class_02_08" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="IDG196-8G" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Clase2_28Enero" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="class_02_11" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -148,7 +185,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550202644775" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550209608353" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IDG196-8G-Arambula/IDG196-8G" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -165,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingCartTest.testIfCampoVacio">
+  <component name="RunManager" selected="JUnit.ShoppingCartTest.testIfAdd">
     <configuration name="ExpressionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mx.cetys.shamira.macias.IDG196-8G.test" />
       <extension name="coverage">
@@ -247,8 +284,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShoppingCartTest.testIfCampoVacio" />
         <item itemvalue="JUnit.ShoppingCartTest.testIfAdd" />
+        <item itemvalue="JUnit.ShoppingCartTest.testIfCampoVacio" />
         <item itemvalue="JUnit.ShoppingCartTest.testIfIDExiste" />
         <item itemvalue="JUnit.ExpressionTest.testIfProfe" />
         <item itemvalue="JUnit.ExpressionTest" />
@@ -272,50 +309,50 @@
       <workItem from="1549678247199" duration="5545000" />
       <workItem from="1549686149017" duration="1611000" />
       <workItem from="1549937416851" duration="4110000" />
-      <workItem from="1550191823809" duration="10899000" />
+      <workItem from="1550191823809" duration="15016000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShoppingCartTest_testIfAdd - 2019.02.14 at 19h 30m 38s.xml">
-      <configuration name="ShoppingCartTest.testIfAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartTest_testIfAdd - 2019.02.14 at 19h 30m 52s.xml">
-      <configuration name="ShoppingCartTest.testIfAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartTest_testIfAdd - 2019.02.14 at 19h 31m 47s.xml">
-      <configuration name="ShoppingCartTest.testIfAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartTest_testIfAdd - 2019.02.14 at 19h 35m 39s.xml">
-      <configuration name="ShoppingCartTest.testIfAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartTest_testIfAdd - 2019.02.14 at 19h 36m 44s.xml">
-      <configuration name="ShoppingCartTest.testIfAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartTest_testIfAdd - 2019.02.14 at 19h 38m 37s.xml">
-      <configuration name="ShoppingCartTest.testIfAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartTest_testIfCampoVacio - 2019.02.14 at 19h 39m 42s.xml">
-      <configuration name="ShoppingCartTest.testIfCampoVacio" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartTest_testIfCampoVacio - 2019.02.14 at 19h 39m 55s.xml">
-      <configuration name="ShoppingCartTest.testIfCampoVacio" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartTest_testIfCampoVacio - 2019.02.14 at 19h 40m 44s.xml">
-      <configuration name="ShoppingCartTest.testIfCampoVacio" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShoppingCartTest_testIfCampoVacio - 2019.02.14 at 19h 49m 42s.xml">
+      <configuration name="ShoppingCartTest.testIfCampoVacio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartTest_testIfCampoVacio - 2019.02.14 at 21h 13m 19s.xml">
+      <configuration name="ShoppingCartTest.testIfCampoVacio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartTest_testIfCampoVacio - 2019.02.14 at 21h 13m 53s.xml">
+      <configuration name="ShoppingCartTest.testIfCampoVacio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartTest_testIfCampoVacio - 2019.02.14 at 21h 15m 41s.xml">
+      <configuration name="ShoppingCartTest.testIfCampoVacio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartTest_testIfAdd - 2019.02.14 at 21h 15m 51s.xml">
+      <configuration name="ShoppingCartTest.testIfAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartTest_testIfCampoVacio - 2019.02.14 at 21h 19m 08s.xml">
+      <configuration name="ShoppingCartTest.testIfCampoVacio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartTest_testIfCampoVacio - 2019.02.14 at 21h 19m 24s.xml">
+      <configuration name="ShoppingCartTest.testIfCampoVacio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartTest_testIfAdd - 2019.02.14 at 21h 20m 01s.xml">
+      <configuration name="ShoppingCartTest.testIfAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartTest_testIfCampoVacio - 2019.02.14 at 21h 20m 57s.xml">
+      <configuration name="ShoppingCartTest.testIfCampoVacio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartTest_testIfCampoVacio - 2019.02.14 at 21h 21m 44s.xml">
       <configuration name="ShoppingCartTest.testIfCampoVacio" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44886000" />
+    <option name="totallyTimeSpent" value="49003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8236776" visible="true" weight="0.27609682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8236776" visible="true" weight="0.27609682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -324,13 +361,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.17632242" side_tool="true" visible="true" weight="0.27609682" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3502455" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3502455" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4599018" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.05237316" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.08183306" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -450,13 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_08/Expression.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -511,17 +541,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/class_02_11/ShoppingCartTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_08/Expression.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_11/Customer.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/class_02_11/ShoppingCartTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_11/ShoppingCart.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
     </entry>
