@@ -34,6 +34,7 @@ class CustumerBehaviorTest {
     @Test
     fun `remove payment returns true if payments list is empty`() {
         val customerBehavior = CustomerBehavior(customer)
+
         assertTrue(customerBehavior.removePayment(payment))
     }
 
@@ -56,7 +57,26 @@ class CustumerBehaviorTest {
 
     @Test
     fun `can add a new payment if it doesn't exist`() {
+        customer.payments.add(payment)
 
+        val customerBehavior = CustomerBehavior(customer)
+        val nonExistingPayment = Payment("10291019202920292", "132", "10/10")
+        assertTrue(customerBehavior.addPayment(nonExistingPayment))
+    }
+
+    @Test
+    fun `can't add a new payment if it exist`() {
+        customer.payments.add(payment)
+
+        val customerBehavior = CustomerBehavior(customer)
+        assertFalse(customerBehavior.addPayment(payment))
+    }
+
+    @Test
+    fun `can add a new payment if it's empty`() {
+        val customerBehavior = CustomerBehavior(customer)
+
+        assertTrue(customerBehavior.addPayment(payment))
     }
     
 }

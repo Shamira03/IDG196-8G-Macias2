@@ -13,4 +13,28 @@ class ShoppingCartBehavior(private val shoppingCart: ShoppingCart) {
 
                     return false
                 }
+
+                fun addProduct(product: Product): Boolean{
+                    if (shoppingCart.products.isEmpty()) {
+                        return shoppingCart.products.add(product)
+                    }
+
+                    if(shoppingCart.products.contains(product)){
+                        return shoppingCart.products.add(product)
+                    }
+
+                    return false
+                }
+
+                fun setCustomer(custumer: Custumer): Boolean{
+                    if (shoppingCart.custumer!=custumer) {
+                        setOf<Custumer>()
+                        return true
+                    }
+
+                    println(custumer)
+                    return false
+                }
+
+
 }

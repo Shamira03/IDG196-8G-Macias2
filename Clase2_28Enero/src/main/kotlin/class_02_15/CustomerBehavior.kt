@@ -12,4 +12,16 @@ class CustomerBehavior(private val customer: Custumer) {
 
                 return false
             }
+
+            fun addPayment(payment: Payment):Boolean{
+                if (customer.payments.isEmpty()) {
+                    return customer.payments.add(payment)
+                }
+
+                if(customer.payments.contains(payment)){
+                    return false
+                }
+
+                return customer.payments.add(payment)
+            }
 }

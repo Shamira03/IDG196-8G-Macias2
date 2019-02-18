@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c122303b-ef6a-4cde-8b88-ba838370ddbf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/class_02_11/Customer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/class_02_11/Product.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/class_02_11/ShoppingCart.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/class_02_11/ShoppingCartTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/class_02_15/CustomerBehavior.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/class_02_15/CustomerBehavior.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCart.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCart.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCartBehavior.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCartBehavior.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/class_02_-15/CustumerBehaviorTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/class_02_-15/CustumerBehaviorTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/class_02_-15/ShoppingCartBehaviorTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/class_02_-15/ShoppingCartBehaviorTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -30,65 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/Custumer.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCart.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/Payment.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/Product.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/CustomerBehavior.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCartBehavior.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/class_02_-15/CustumerBehaviorTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="54" column="5" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="54" selection-end-column="5" />
-              <folding>
-                <element signature="e#24#207#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -96,11 +40,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/class_02_-15/ShoppingCartBehaviorTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="e#24#90#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="140">
+              <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCartBehavior.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCart.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -140,10 +99,10 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/class_02_15/Payment.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/class_02_15/Custumer.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/class_02_15/Product.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCart.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCartBehavior.java" />
-        <option value="$PROJECT_DIR$/src/test/kotlin/class_02_-15/CustumerBehaviorTest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/class_02_15/CustomerBehavior.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/class_02_-15/CustumerBehaviorTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCart.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCartBehavior.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/class_02_-15/ShoppingCartBehaviorTest.kt" />
       </list>
@@ -226,10 +185,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550442995142" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550449828103" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IDG196-8G-Arambula/IDG196-8G" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -243,40 +203,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingCartBehaviorTest.remove a product that exists">
-    <configuration name="CustumerBehaviorTest.can't remove a payment that does not exist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mx.cetys.shamira.macias.IDG196-8G.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="class_02_-15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="class_02_-15" />
-      <option name="MAIN_CLASS_NAME" value="class_02_-15.CustumerBehaviorTest" />
-      <option name="METHOD_NAME" value="can't remove a payment that does not exist" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustumerBehaviorTest.remove a payment that exists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mx.cetys.shamira.macias.IDG196-8G.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="class_02_-15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="class_02_-15" />
-      <option name="MAIN_CLASS_NAME" value="class_02_-15.CustumerBehaviorTest" />
-      <option name="METHOD_NAME" value="remove a payment that exists" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShoppingCartBehaviorTest.can't remove a payment that does not exist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ShoppingCartBehaviorTest.can replace customer if is different than the existent">
+    <configuration name="ShoppingCartBehaviorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mx.cetys.shamira.macias.IDG196-8G.test" />
       <extension name="coverage">
         <pattern>
@@ -286,13 +214,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="class_02_-15" />
       <option name="MAIN_CLASS_NAME" value="class_02_-15.ShoppingCartBehaviorTest" />
-      <option name="METHOD_NAME" value="can't remove a payment that does not exist" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCartBehaviorTest.remove a product that exists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingCartBehaviorTest.can replace a customer if one exist already" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mx.cetys.shamira.macias.IDG196-8G.test" />
       <extension name="coverage">
         <pattern>
@@ -302,13 +229,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="class_02_-15" />
       <option name="MAIN_CLASS_NAME" value="class_02_-15.ShoppingCartBehaviorTest" />
-      <option name="METHOD_NAME" value="remove a product that exists" />
+      <option name="METHOD_NAME" value="can replace a customer if one exist already" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCartBehaviorTest.remove product returns true if product list is empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingCartBehaviorTest.can replace customer if is different than the existent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mx.cetys.shamira.macias.IDG196-8G.test" />
       <extension name="coverage">
         <pattern>
@@ -318,7 +245,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="class_02_-15" />
       <option name="MAIN_CLASS_NAME" value="class_02_-15.ShoppingCartBehaviorTest" />
-      <option name="METHOD_NAME" value="remove product returns true if product list is empty" />
+      <option name="METHOD_NAME" value="can replace customer if is different than the existent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartBehaviorTest.can't add a customer if one exist already" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mx.cetys.shamira.macias.IDG196-8G.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="class_02_-15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="class_02_-15" />
+      <option name="MAIN_CLASS_NAME" value="class_02_-15.ShoppingCartBehaviorTest" />
+      <option name="METHOD_NAME" value="can't add a customer if one exist already" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartBehaviorTest.can't replace customer if is the same than the existent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mx.cetys.shamira.macias.IDG196-8G.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="class_02_-15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="class_02_-15" />
+      <option name="MAIN_CLASS_NAME" value="class_02_-15.ShoppingCartBehaviorTest" />
+      <option name="METHOD_NAME" value="can't replace customer if is the same than the existent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -326,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShoppingCartBehaviorTest.remove a product that exists" />
-        <item itemvalue="JUnit.CustumerBehaviorTest.remove a payment that exists" />
-        <item itemvalue="JUnit.ShoppingCartBehaviorTest.can't remove a payment that does not exist" />
-        <item itemvalue="JUnit.ShoppingCartBehaviorTest.remove product returns true if product list is empty" />
-        <item itemvalue="JUnit.CustumerBehaviorTest.can't remove a payment that does not exist" />
+        <item itemvalue="JUnit.ShoppingCartBehaviorTest.can replace customer if is different than the existent" />
+        <item itemvalue="JUnit.ShoppingCartBehaviorTest.can't replace customer if is the same than the existent" />
+        <item itemvalue="JUnit.ShoppingCartBehaviorTest" />
+        <item itemvalue="JUnit.ShoppingCartBehaviorTest.can't add a customer if one exist already" />
+        <item itemvalue="JUnit.ShoppingCartBehaviorTest.can replace a customer if one exist already" />
       </list>
     </recent_temporary>
   </component>
@@ -354,44 +313,44 @@
       <workItem from="1550191823809" duration="19889000" />
       <workItem from="1550271937264" duration="12056000" />
       <workItem from="1550435441985" duration="836000" />
-      <workItem from="1550436323642" duration="5141000" />
+      <workItem from="1550436323642" duration="12056000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShoppingCartTest_testIfProductoVacio - 2019.02.15 at 00h 16m 12s.xml">
-      <configuration name="ShoppingCartTest.testIfProductoVacio" configurationId="JUnit" />
+    <history-entry file="ShoppingCartBehaviorTest_can_replace_a_customer_if_one_exist_already - 2019.02.17 at 16h 17m 50s.xml">
+      <configuration name="ShoppingCartBehaviorTest.can replace a customer if one exist already" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartTest_testIfAddProduct - 2019.02.15 at 00h 17m 05s.xml">
-      <configuration name="ShoppingCartTest.testIfAddProduct" configurationId="JUnit" />
+    <history-entry file="ShoppingCartBehaviorTest_can't_add_a_customer_if_one_exist_already - 2019.02.17 at 16h 18m 18s.xml">
+      <configuration name="ShoppingCartBehaviorTest.can't add a customer if one exist already" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartTest_testIfAddProduct - 2019.02.15 at 00h 17m 22s.xml">
-      <configuration name="ShoppingCartTest.testIfAddProduct" configurationId="JUnit" />
+    <history-entry file="ShoppingCartBehaviorTest - 2019.02.17 at 16h 19m 30s.xml">
+      <configuration name="ShoppingCartBehaviorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustumerBehaviorTest - 2019.02.17 at 12h 47m 05s.xml">
-      <configuration name="CustumerBehaviorTest" configurationId="JUnit" />
+    <history-entry file="ShoppingCartBehaviorTest - 2019.02.17 at 16h 19m 58s.xml">
+      <configuration name="ShoppingCartBehaviorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartBehaviorTest_remove_product_returns_true_if_product_list_is_empty - 2019.02.17 at 14h 07m 45s.xml">
-      <configuration name="ShoppingCartBehaviorTest.remove product returns true if product list is empty" configurationId="JUnit" />
+    <history-entry file="ShoppingCartBehaviorTest_can_replace_customer_if_is_different_than_the_existent - 2019.02.17 at 16h 26m 13s.xml">
+      <configuration name="ShoppingCartBehaviorTest.can replace customer if is different than the existent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartBehaviorTest_can't_remove_a_payment_that_does_not_exist - 2019.02.17 at 14h 28m 44s.xml">
-      <configuration name="ShoppingCartBehaviorTest.can't remove a payment that does not exist" configurationId="JUnit" />
+    <history-entry file="ShoppingCartBehaviorTest_can_replace_customer_if_is_different_than_the_existent - 2019.02.17 at 16h 26m 47s.xml">
+      <configuration name="ShoppingCartBehaviorTest.can replace customer if is different than the existent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartBehaviorTest_can't_remove_a_payment_that_does_not_exist - 2019.02.17 at 14h 28m 58s.xml">
-      <configuration name="ShoppingCartBehaviorTest.can't remove a payment that does not exist" configurationId="JUnit" />
+    <history-entry file="ShoppingCartBehaviorTest_can_replace_customer_if_is_different_than_the_existent - 2019.02.17 at 16h 28m 04s.xml">
+      <configuration name="ShoppingCartBehaviorTest.can replace customer if is different than the existent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartBehaviorTest_can't_remove_a_payment_that_does_not_exist - 2019.02.17 at 14h 30m 36s.xml">
-      <configuration name="ShoppingCartBehaviorTest.can't remove a payment that does not exist" configurationId="JUnit" />
+    <history-entry file="ShoppingCartBehaviorTest_can_replace_customer_if_is_different_than_the_existent - 2019.02.17 at 16h 28m 22s.xml">
+      <configuration name="ShoppingCartBehaviorTest.can replace customer if is different than the existent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustumerBehaviorTest_remove_a_payment_that_exists - 2019.02.17 at 14h 34m 09s.xml">
-      <configuration name="CustumerBehaviorTest.remove a payment that exists" configurationId="JUnit" />
+    <history-entry file="ShoppingCartBehaviorTest_can_replace_customer_if_is_different_than_the_existent - 2019.02.17 at 16h 28m 49s.xml">
+      <configuration name="ShoppingCartBehaviorTest.can replace customer if is different than the existent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustumerBehaviorTest_remove_a_payment_that_exists - 2019.02.17 at 14h 34m 23s.xml">
-      <configuration name="CustumerBehaviorTest.remove a payment that exists" configurationId="JUnit" />
+    <history-entry file="ShoppingCartBehaviorTest_can_replace_customer_if_is_different_than_the_existent - 2019.02.17 at 16h 29m 24s.xml">
+      <configuration name="ShoppingCartBehaviorTest.can replace customer if is different than the existent" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71909000" />
+    <option name="totallyTimeSpent" value="78824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -406,13 +365,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.18372704" side_tool="true" weight="0.27609682" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3502455" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44189852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4599018" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.2618658" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.08510638" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.16530278" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -430,7 +389,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.816273" visible="true" weight="0.27987897" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.816273" visible="true" weight="0.28895614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -439,13 +398,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.18372704" side_tool="true" weight="0.27609682" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3764321" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26841244" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4599018" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.16530278" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.08510638" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.16530278" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -473,6 +432,12 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/class_02_01/Palindrome.kt</url>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCartBehavior.kt</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -525,35 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="141" selection-start-line="141" selection-end-line="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="370" selection-start-line="370" selection-end-line="370" />
-          <folding>
-            <element signature="e#2922#2923#0" expanded="true" />
-            <element signature="e#2966#2967#0" expanded="true" />
-            <element signature="e#10310#10449#0" expanded="true" />
-            <element signature="e#10448#10449#0" expanded="true" />
-            <element signature="e#11040#11204#0" expanded="true" />
-            <element signature="e#11203#11204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -586,10 +522,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/Custumer.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCartBehavior.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/Product.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -600,76 +543,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/Product.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/CustomerBehavior.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCartBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCart.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        <state relative-caret-position="136">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="118">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="370" selection-start-line="370" selection-end-line="370" />
+          <folding>
+            <element signature="e#2922#2923#0" expanded="true" />
+            <element signature="e#2966#2967#0" expanded="true" />
+            <element signature="e#10310#10449#0" expanded="true" />
+            <element signature="e#10448#10449#0" expanded="true" />
+            <element signature="e#11040#11204#0" expanded="true" />
+            <element signature="e#11203#11204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="101">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
-            <element signature="e#1464#1658#0" expanded="true" />
             <element signature="e#1657#1658#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCartBehavior.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/CustomerBehavior.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/class_02_-15/CustumerBehaviorTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="e#24#207#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-151">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCart.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/Custumer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/class_02_15/ShoppingCartBehavior.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/class_02_-15/ShoppingCartBehaviorTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#24#90#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
         </state>
       </provider>
     </entry>
