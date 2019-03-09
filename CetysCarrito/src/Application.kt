@@ -86,6 +86,11 @@ fun Application.module(testing: Boolean = false) {
             call.respond(mapOf("pagos" to customer.payments))
         }
 
+        get("/mc/get/alumno") {
+            call.respond(mapOf("alumno" to "Shamira"))
+        }
+
+
     }
 
 }

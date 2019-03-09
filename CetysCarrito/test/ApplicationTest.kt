@@ -58,4 +58,13 @@ class ApplicationTest {
             }
         }
     }
+
+    @Test
+    fun getAlumno(){
+        withTestApplication({ module(testing = true) }) {
+            handleRequest(HttpMethod.Get, "/mc/get/alumno").apply {
+                assertEquals(HttpStatusCode.OK, response.status())
+            }
+        }
+    }
 }
